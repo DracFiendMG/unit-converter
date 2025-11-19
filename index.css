@@ -44,6 +44,7 @@ body {
     color: inherit;
     padding: 0;
     text-align: inherit;
+    outline: none;
 }
 
 input[type=number]::-webkit-inner-spin-button, 
