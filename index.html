@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </head>
+    <body>
+        <div class="input">
+            <h1 id="title">Metric/Imperial Unit Conversion</h1>
+            <div><input type="number" id="number"></div>
+            <button id="convert-btn">Convert</button>
+        </div>
+        <div class="conversion">
+            <div class="conversion-block">
+                <p>Length (Meter/Feet)</p>
+                <p class="converted-values" id="length-el"></p>
+            </div>
+            <div class="conversion-block">
+                <p>Volume (Liters/Gallons)</p>
+                <p class="converted-values" id="volume-el"></p>
+            </div>
+            <div class="conversion-block">
+                <p>Mass (Kilograms/Pounds)</p>
+                <p class="converted-values" id="mass-el"></p>
+            </div>
+        </div>
+        <div class="github"><a href="https://github.com/DracFiendMG/unit-converter">GitHub<i class="fab fa-github"></i></a></div>
+        <script src="index.js"></script>
+    </body>
+</html>
